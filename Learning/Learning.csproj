@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B1D1B72-0199-4D72-99D5-A20A24B6BC96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Learning</RootNamespace>
+    <AssemblyName>Learning</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form0.Designer.cs">
+      <DependentUpon>Form0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form0.resx">
+      <DependentUpon>Form0.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\6.png" />
+    <EmbeddedResource Include="Resources\7-6.png" />
+    <EmbeddedResource Include="Resources\7-7a2.png" />
+    <EmbeddedResource Include="Resources\7-alf.png" />
+    <EmbeddedResource Include="Resources\7-ba2.png" />
+    <EmbeddedResource Include="Resources\7-dal.png" />
+    <EmbeddedResource Include="Resources\7-ha2.png" />
+    <EmbeddedResource Include="Resources\7-lam.png" />
+    <EmbeddedResource Include="Resources\7-mem.png" />
+    <EmbeddedResource Include="Resources\7-ta2.png" />
+    <EmbeddedResource Include="Resources\7-ya2.png" />
+    <EmbeddedResource Include="Resources\7a2.png" />
+    <EmbeddedResource Include="Resources\7-1.jpg" />
+    <EmbeddedResource Include="Resources\7-10.jpg" />
+    <EmbeddedResource Include="Resources\7-2.jpg" />
+    <EmbeddedResource Include="Resources\7-3.jpg" />
+    <EmbeddedResource Include="Resources\7-4.jpg" />
+    <EmbeddedResource Include="Resources\7-5.jpg" />
+    <EmbeddedResource Include="Resources\7-6.jpg" />
+    <EmbeddedResource Include="Resources\7-7.jpg" />
+    <EmbeddedResource Include="Resources\7-8.jpg" />
+    <EmbeddedResource Include="Resources\7-9.jpg" />
+    <EmbeddedResource Include="Resources\7-33.jpg" />
+    <EmbeddedResource Include="Resources\7-66.jpg" />
+    <EmbeddedResource Include="Resources\7-99.jpg" />
+    <EmbeddedResource Include="Resources\alf.png" />
+    <EmbeddedResource Include="Resources\ba2.png" />
+    <EmbeddedResource Include="Resources\dal.png" />
+    <Content Include="Resources\7-2.png" />
+    <Content Include="Resources\71.png" />
+    <Content Include="Resources\72.png" />
+    <Content Include="Resources\applause-1.wav" />
+    <EmbeddedResource Include="Resources\b.png" />
+    <Content Include="Resources\background1.jpg" />
+    <Content Include="Resources\BACKK.png" />
+    <Content Include="Resources\bad.png" />
+    <EmbeddedResource Include="Resources\days.mp4" />
+    <EmbeddedResource Include="Resources\body2.png" />
+    <EmbeddedResource Include="Resources\ear.png" />
+    <Content Include="Resources\Enter.png" />
+    <EmbeddedResource Include="Resources\fail-trombone-03.wav" />
+    <EmbeddedResource Include="Resources\ha2.png" />
+    <EmbeddedResource Include="Resources\L1.png" />
+    <EmbeddedResource Include="Resources\L10.png" />
+    <EmbeddedResource Include="Resources\L2.png" />
+    <EmbeddedResource Include="Resources\L3.png" />
+    <EmbeddedResource Include="Resources\L4.png" />
+    <EmbeddedResource Include="Resources\L5.png" />
+    <EmbeddedResource Include="Resources\L6.png" />
+    <EmbeddedResource Include="Resources\L7.png" />
+    <EmbeddedResource Include="Resources\L8.png" />
+    <EmbeddedResource Include="Resources\L9.png" />
+    <None Include="Resources\L11.bmp" />
+    <Content Include="Resources\exercies.png" />
+    <Content Include="Resources\exitt.png" />
+    <EmbeddedResource Include="Resources\family.mp4" />
+    <EmbeddedResource Include="Resources\fri.png" />
+    <EmbeddedResource Include="Resources\g.png" />
+    <EmbeddedResource Include="Resources\eye.png" />
+    <Content Include="Resources\good.png" />
+    <EmbeddedResource Include="Resources\gr.png" />
+    <Content Include="Resources\happy.jpg" />
+    <EmbeddedResource Include="Resources\head.png" />
+    <Content Include="Resources\helpp.png" />
+    <Content Include="Resources\homee.png" />
+    <Content Include="Resources\L11.png" />
+    <Content Include="Resources\L12.png" />
+    <Content Include="Resources\L13.png" />
+    <Content Include="Resources\L14.png" />
+    <Content Include="Resources\L15.png" />
+    <Content Include="Resources\L16.png" />
+    <Content Include="Resources\L17.png" />
+    <Content Include="Resources\L18.png" />
+    <Content Include="Resources\L19.png" />
+    <Content Include="Resources\L20.png" />
+    <Content Include="Resources\L21.png" />
+    <Content Include="Resources\L22.png" />
+    <Content Include="Resources\L23.png" />
+    <Content Include="Resources\L24.png" />
+    <Content Include="Resources\L25.png" />
+    <Content Include="Resources\L26.png" />
+    <Content Include="Resources\L27.png" />
+    <Content Include="Resources\L28.png" />
+    <EmbeddedResource Include="Resources\lam.png" />
+    <EmbeddedResource Include="Resources\mem.png" />
+    <Content Include="Resources\lessons.png" />
+    <Content Include="Resources\letters.png" />
+    <EmbeddedResource Include="Resources\mon.png" />
+    <EmbeddedResource Include="Resources\lsan.png" />
+    <EmbeddedResource Include="Resources\neck.png" />
+    <Content Include="Resources\next.png" />
+    <EmbeddedResource Include="Resources\o.png" />
+    <EmbeddedResource Include="Resources\nose.png" />
+    <Content Include="Resources\Picture10.jpg" />
+    <Content Include="Resources\Picture12.jpg" />
+    <Content Include="Resources\Picture13.png" />
+    <Content Include="Resources\Picture14.png" />
+    <Content Include="Resources\Picture16.jpg" />
+    <Content Include="Resources\Picture2.png" />
+    <Content Include="Resources\Picture3.png" />
+    <Content Include="Resources\Picture4.png" />
+    <Content Include="Resources\Picture5.png" />
+    <Content Include="Resources\Picture6.png" />
+    <Content Include="Resources\Picture7.png" />
+    <Content Include="Resources\Picture8.png" />
+    <Content Include="Resources\Picture9.jpg" />
+    <EmbeddedResource Include="Resources\r.png" />
+    <Content Include="Resources\sadface.jpg" />
+    <EmbeddedResource Include="Resources\sat.png" />
+    <None Include="Resources\smiley.png" />
+    <Content Include="Resources\start.png" />
+    <EmbeddedResource Include="Resources\sun.png" />
+    <EmbeddedResource Include="Resources\thu.png" />
+    <EmbeddedResource Include="Resources\turs.png" />
+    <EmbeddedResource Include="Resources\wed.png" />
+    <EmbeddedResource Include="Resources\w.png" />
+    <Content Include="Resources\words.png" />
+    <EmbeddedResource Include="Resources\y.png" />
+    <Content Include="Resources\y1.jpg" />
+    <Content Include="Resources\y2.jpg" />
+    <Content Include="Resources\y3.jpg" />
+    <EmbeddedResource Include="Resources\ta2.png" />
+    <EmbeddedResource Include="Resources\y-1.jpg" />
+    <EmbeddedResource Include="Resources\y-10.jpg" />
+    <EmbeddedResource Include="Resources\y-2.jpg" />
+    <EmbeddedResource Include="Resources\y-3.jpg" />
+    <EmbeddedResource Include="Resources\y-4.jpg" />
+    <EmbeddedResource Include="Resources\y-5.jpg" />
+    <EmbeddedResource Include="Resources\y-66.jpg" />
+    <EmbeddedResource Include="Resources\y-7.jpg" />
+    <EmbeddedResource Include="Resources\y-8.jpg" />
+    <EmbeddedResource Include="Resources\y-9.jpg" />
+    <EmbeddedResource Include="Resources\y-6.jpg" />
+    <EmbeddedResource Include="Resources\y-7a2.jpg" />
+    <EmbeddedResource Include="Resources\y-alf.jpg" />
+    <EmbeddedResource Include="Resources\y-ba2.jpg" />
+    <EmbeddedResource Include="Resources\y-dal.jpg" />
+    <EmbeddedResource Include="Resources\y-ha2.jpg" />
+    <EmbeddedResource Include="Resources\y-lam.jpg" />
+    <EmbeddedResource Include="Resources\y-mem.jpg" />
+    <EmbeddedResource Include="Resources\y-ta2.jpg" />
+    <EmbeddedResource Include="Resources\y-ya2.jpg" />
+    <EmbeddedResource Include="Resources\ya2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
