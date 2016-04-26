@@ -69,6 +69,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,12 @@
     <Compile Include="Form0.Designer.cs">
       <DependentUpon>Form0.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +113,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Form15.designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Form9.designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -112,6 +136,9 @@
     <EmbeddedResource Include="Form0.resx">
       <DependentUpon>Form0.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
@@ -158,6 +185,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="bin\Debug\Learning.vshost.exe.manifest" />
+    <None Include="Form14.Designer" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\Learning.csproj.GenerateResource.Cache" />
@@ -210,6 +238,7 @@
     <Content Include="bin\Debug\Learning.vshost.exe" />
     <Content Include="bin\Release\Learning.exe" />
     <Content Include="bin\Release\Learning.pdb" />
+    <Content Include="Form14.xml" />
     <Content Include="obj\Debug\AxInterop.WMPLib.dll" />
     <Content Include="obj\Debug\Interop.WMPLib.dll" />
     <Content Include="obj\Debug\Learning.csproj.FileListAbsolute.txt" />
@@ -220,6 +249,7 @@
     <Content Include="obj\Release\Learning.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Release\Learning.exe" />
     <Content Include="obj\Release\Learning.pdb" />
+    <Content Include="Resources\20CENT.gif" />
     <Content Include="Resources\7-2.png" />
     <Content Include="Resources\71.png" />
     <Content Include="Resources\72.png" />
@@ -231,8 +261,17 @@
     <EmbeddedResource Include="Resources\days.mp4" />
     <EmbeddedResource Include="Resources\body2.png" />
     <EmbeddedResource Include="Resources\ear.png" />
+    <Content Include="Resources\body.png" />
+    <Content Include="Resources\colors.png" />
+    <Content Include="Resources\days.png" />
     <Content Include="Resources\Enter.png" />
     <EmbeddedResource Include="Resources\fail-trombone-03.wav" />
+    <EmbeddedResource Include="Resources\Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\ha2.png" />
     <EmbeddedResource Include="Resources\L1.png" />
     <EmbeddedResource Include="Resources\L10.png" />
@@ -251,6 +290,7 @@
     <EmbeddedResource Include="Resources\fri.png" />
     <EmbeddedResource Include="Resources\g.png" />
     <EmbeddedResource Include="Resources\eye.png" />
+    <Content Include="Resources\family.png" />
     <Content Include="Resources\good.png" />
     <EmbeddedResource Include="Resources\gr.png" />
     <Content Include="Resources\happy.jpg" />
@@ -285,11 +325,13 @@
     <Content Include="Resources\next.png" />
     <EmbeddedResource Include="Resources\o.png" />
     <EmbeddedResource Include="Resources\nose.png" />
+    <Content Include="Resources\PAINT_PALETTE2.jpg" />
     <Content Include="Resources\Picture10.jpg" />
     <Content Include="Resources\Picture12.jpg" />
     <Content Include="Resources\Picture13.png" />
     <Content Include="Resources\Picture14.png" />
     <Content Include="Resources\Picture16.jpg" />
+    <Content Include="Resources\Picture17.png" />
     <Content Include="Resources\Picture2.png" />
     <Content Include="Resources\Picture3.png" />
     <Content Include="Resources\Picture4.png" />
@@ -302,6 +344,7 @@
     <Content Include="Resources\sadface.jpg" />
     <EmbeddedResource Include="Resources\sat.png" />
     <None Include="Resources\smiley.png" />
+    <Content Include="Resources\smiling_girl_face_outline_clip_art_18796.jpg" />
     <Content Include="Resources\start.png" />
     <EmbeddedResource Include="Resources\sun.png" />
     <EmbeddedResource Include="Resources\thu.png" />
