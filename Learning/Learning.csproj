@@ -75,6 +75,12 @@
     <Compile Include="Form14.Designer.cs">
       <DependentUpon>Form14.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,20 +117,20 @@
     <Compile Include="Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resources\Form15.cs">
+    <Compile Include="Form9.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Resources\Form15.designer.cs">
-      <DependentUpon>Form15.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Resources\Form9.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Resources\Form9.designer.cs">
+    <Compile Include="Form9.designer.cs">
       <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -147,6 +153,9 @@
     <EmbeddedResource Include="Form6.resx">
       <DependentUpon>Form6.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="obj\Debug\Learning.Form0.resources" />
     <EmbeddedResource Include="obj\Debug\Learning.Form1.resources" />
@@ -185,7 +194,6 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="bin\Debug\Learning.vshost.exe.manifest" />
-    <None Include="Form14.Designer" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="obj\Debug\Learning.csproj.GenerateResource.Cache" />
@@ -238,7 +246,6 @@
     <Content Include="bin\Debug\Learning.vshost.exe" />
     <Content Include="bin\Release\Learning.exe" />
     <Content Include="bin\Release\Learning.pdb" />
-    <Content Include="Form14.xml" />
     <Content Include="obj\Debug\AxInterop.WMPLib.dll" />
     <Content Include="obj\Debug\Interop.WMPLib.dll" />
     <Content Include="obj\Debug\Learning.csproj.FileListAbsolute.txt" />
@@ -266,12 +273,6 @@
     <Content Include="Resources\days.png" />
     <Content Include="Resources\Enter.png" />
     <EmbeddedResource Include="Resources\fail-trombone-03.wav" />
-    <EmbeddedResource Include="Resources\Form15.resx">
-      <DependentUpon>Form15.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Form9.resx">
-      <DependentUpon>Form9.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Resources\ha2.png" />
     <EmbeddedResource Include="Resources\L1.png" />
     <EmbeddedResource Include="Resources\L10.png" />
