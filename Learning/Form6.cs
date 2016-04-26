@@ -27,7 +27,7 @@ namespace Learning
 
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+    /*    private void pictureBox3_Click(object sender, EventArgs e)
         {
 
         }
@@ -36,7 +36,7 @@ namespace Learning
         private void label1_Click(object sender, EventArgs e)
         {
 
-        }
+        }*/
 
         private void Form6_Load(object sender, EventArgs e)
         {
@@ -63,11 +63,11 @@ namespace Learning
             Application.Exit();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+      /*  private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
-
+        */
       
 
         private void pictureBox5_Click(object sender, EventArgs e)
