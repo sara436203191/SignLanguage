@@ -70,14 +70,14 @@ namespace Learning
         */
       
 
-        private void pictureBox5_Click(object sender, EventArgs e)
+       /* private void pictureBox5_Click(object sender, EventArgs e)
         {
             Form4 f4 = new Form4();
             f4.Show();
             this.Hide();
 
         }
-
+        */
       
     }
 }
