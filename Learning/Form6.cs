@@ -77,7 +77,10 @@ namespace Learning
             this.Hide();
 
         }
-        
-      
+
+        private void pictureBox5_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
