@@ -260,7 +260,6 @@
     <Content Include="Resources\7-2.png" />
     <Content Include="Resources\71.png" />
     <Content Include="Resources\72.png" />
-    <Content Include="Resources\applause-1.wav" />
     <EmbeddedResource Include="Resources\b.png" />
     <Content Include="Resources\background1.jpg" />
     <Content Include="Resources\BACKK.png" />
