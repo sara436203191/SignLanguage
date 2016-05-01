@@ -87,6 +87,12 @@
     <Compile Include="Form0.Designer.cs">
       <DependentUpon>Form0.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,12 @@
     </Compile>
     <Compile Include="Form6.Designer.cs">
       <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -113,6 +125,9 @@
       <DependentUpon>Form0.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form5.resx">
       <DependentUpon>Form5.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -121,32 +136,10 @@
       <DependentUpon>Form6.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="obj\Debug\Learning.Form0.resources" />
-    <EmbeddedResource Include="obj\Debug\Learning.Form1.resources" />
-    <EmbeddedResource Include="obj\Debug\Learning.Form10.resources" />
-    <EmbeddedResource Include="obj\Debug\Learning.Form11.resources" />
-    <EmbeddedResource Include="obj\Debug\Learning.Form12.resources" />
-    <EmbeddedResource Include="obj\Debug\Learning.Form13.resources" />
-    <EmbeddedResource Include="obj\Debug\Learning.Form16.resources" />
-    <EmbeddedResource Include="obj\Debug\Learning.Form2.resources" />
-    <EmbeddedResource Include="obj\Debug\Learning.Form3.resources" />
-    <EmbeddedResource Include="obj\Debug\Learning.Form5.resources" />
-    <EmbeddedResource Include="obj\Debug\Learning.Form6.resources" />
-    <EmbeddedResource Include="obj\Debug\Learning.Form8.resources" />
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="obj\Debug\Learning.Properties.Resources.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Form0.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Form1.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Form10.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Form11.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Form2.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Form3.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Form4.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Form5.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Form6.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Form7.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Form8.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Form9.resources" />
-    <EmbeddedResource Include="obj\Release\Learning.Properties.Resources.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -163,7 +156,6 @@
     <None Include="obj\Debug\Learning.csproj.GenerateResource.Cache" />
     <None Include="obj\Debug\Learning.csproj.ResolveComReference.cache" />
     <None Include="obj\Debug\Learning.csprojResolveAssemblyReference.cache" />
-    <None Include="obj\Release\Learning.csproj.GenerateResource.Cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -213,13 +205,8 @@
     <Content Include="obj\Debug\AxInterop.WMPLib.dll" />
     <Content Include="obj\Debug\Interop.WMPLib.dll" />
     <Content Include="obj\Debug\Learning.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\Learning.exe" />
-    <Content Include="obj\Debug\Learning.pdb" />
     <Content Include="obj\Debug\TempPE\DataSet1.Designer.cs.dll" />
     <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
-    <Content Include="obj\Release\Learning.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Release\Learning.exe" />
-    <Content Include="obj\Release\Learning.pdb" />
     <Content Include="Resources\20CENT.gif" />
     <Content Include="Resources\7-2.png" />
     <Content Include="Resources\71.png" />
