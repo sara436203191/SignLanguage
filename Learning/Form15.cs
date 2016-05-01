@@ -12,9 +12,9 @@ using System.Media;
 
 namespace Learning
 {
-    public partial class Form9 : Form
+    public partial class Form15 : Form
     {
-        public Form9()
+        public Form15()
         {
             InitializeComponent();
             pictureBox9.Parent = pictureBox1;
@@ -54,17 +54,16 @@ namespace Learning
             pictureBox9.Click += new EventHandler(AnswerMade);
             pictureBox10.Click += new EventHandler(AnswerMade);
             pictureBox11.Click += new EventHandler(AnswerMade);
-            
         }
         int Count = 7;
         PictureBox CorrectOne;
-        private void Form9_Load(object sender, EventArgs e)
+        private void Form15_Load(object sender, EventArgs e)
         {
             label1.Text = "أهلا و سهلا بك يا " + Class1.name;
             label9.Visible = false;
             label10.Visible = false;
-            String[] pic = { "sat", "sun", "mon", "turs", "wed", "thu", "fri" };
-            String[] ques = { "السبت", "الاحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة" };
+            String[] pic = { "eye", "ear", "head", "body2", "lsan", "neck", "nose" };
+            String[] ques = { "عين", "أذن", "رأس", "جسم", "لسان", "رقبة", "أنف" };
             PictureBox[] picbox = { pictureBox3, pictureBox4, pictureBox5, pictureBox8, pictureBox9, pictureBox10, pictureBox11 };
             Random RandomClass = new Random();
             int q, CorrectPlace, Place1, Place2, Place3, Place4, Place5, Place6, pic1, pic2, pic3, pic4, pic5, pic6;
@@ -166,12 +165,12 @@ namespace Learning
 
             if (Choosed == CorrectOne)
             {
-                
+
                 label9.Visible = true;
                 Game.numOfc++;
                 Count--;
-                Form9_Load(sender, e);
-               
+                Form15_Load(sender, e);
+
             }
 
             else
@@ -179,7 +178,7 @@ namespace Learning
 
                 label10.Visible = true;
                 Game.numOfw++;
-                
+
             }
             if (Count == 0)
             {
@@ -198,8 +197,8 @@ namespace Learning
                 label7.Visible = true;
                 label8.Visible = true;
                 pictureBox12.Visible = true;
-                label7.Text=Game.numOfw.ToString();
-                label8.Text=Game.numOfc.ToString();
+                label7.Text = Game.numOfw.ToString();
+                label8.Text = Game.numOfc.ToString();
                 Game.numOfw = 0;
                 Game.numOfc = 0;
             }
@@ -232,10 +231,24 @@ namespace Learning
             this.Hide();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox7_Click_1(object sender, EventArgs e)
         {
-
+            Form4 f4 = new Form4();
+            f4.Show();
+            this.Hide();
         }
+
+        private void pictureBox6_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+            Form2 f2 = new Form2();
+            f2.Show();
+            this.Hide();
+        }
+
     }
 }
-

@@ -66,19 +66,21 @@ namespace Learning
             this.Hide();
         }
 
-     /*   private void pictureBox5_Click(object sender, EventArgs e)
-        {
-            Form14 f14 = new Form14();
-            f14.Show();
-            this.Hide();
-        }
+       
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            Form15 f15 = new Form15();
-            f15.Show();
-            this.Hide();
-        }*/
+         private void pictureBox5_Click(object sender, EventArgs e)
+           {
+               Form14 f14 = new Form14();
+               f14.Show();
+               this.Hide();
+           }
+
+           private void pictureBox4_Click(object sender, EventArgs e)
+           {
+               Form15 f15 = new Form15();
+               f15.Show();
+               this.Hide();
+           }
     }
 }
 
