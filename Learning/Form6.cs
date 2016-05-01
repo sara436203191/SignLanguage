@@ -63,24 +63,28 @@ namespace Learning
             Application.Exit();
         }
 
-      /*  private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-        */
-      
-
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             Form4 f4 = new Form4();
             f4.Show();
             this.Hide();
-
         }
 
-        private void pictureBox5_Click_1(object sender, EventArgs e)
-        {
+        /*  private void pictureBox1_Click(object sender, EventArgs e)
+          {
 
-        }
+          }
+          */
+
+
+        /* private void pictureBox5_Click(object sender, EventArgs e)
+         {
+             Form4 f4 = new Form4();
+             f4.Show();
+             this.Hide();
+
+         }
+         */
+
     }
 }
